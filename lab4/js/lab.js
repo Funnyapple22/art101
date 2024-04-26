@@ -1,10 +1,17 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js -Game of rock paper scissors; two players display one of three symbols (rock, paper, scissors)
+// Author: Allon Ramirez & Robert G. Allison
+// Date: 4/23/24
 
-// Constants
+// Constants: 'rock' 'paper' 'scissors'
 
-// Functions
+// Functions: rock > scissors, scissors > paper, paper > rock
+
+// setting the stage:
+//buttons for player to choose either 'rock' 'paper' or 'scissors'
+// computer replies with 'rock' 'paper' or 'scissors'
+//decide on winner
+// repeat
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
@@ -19,3 +26,4 @@ function main() {
 
 // let's get this party started
 main();
+

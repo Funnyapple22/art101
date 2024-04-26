@@ -4,6 +4,14 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 1px #d2d2d2;
+    background-color: #DDD8C4;
+  }
+
+  .about-me {
+    background-color: #DDD8C4;
+  }
+
+  .labs {
     background-color: #DDD8C4;
   }
