@@ -1,0 +1,60 @@
+body {
+  background-color: #3a3335;
+}
+
+h1 {
+  color: #fdf0d5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #fdf0d5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#results {
+  background-color: #df4a7c;
+  padding: 10px;
+  border: solid 4px #fdf0d5;
+  color: #fdf0d5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#problems {
+  background-color: #df4a7c;
+  padding: 10px;
+  border: solid 4px #fdf0d5;
+  color: #fdf0d5;
+}
+
+#challenge {
+  background-color: #df4a7c;
+  padding: 10px;
+  border: solid 4px #fdf0d5;
+}
+
+#page {
+  background-color: #df4a7c;
+  padding: 10px;
+  border: solid 4px #fdf0d5;
+}
+
+#part-two {
+  background-color: #df4a7c;
+  padding: 10px;
+  font-size: 16px;
+  color: #fdf0d5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#part-two img {
+  display: block;
+  margin: 0 auto;
+  border: dotted 7px #fdf0d5;
+}
+
+#output {
+  background-color: #df4a7c;
+  padding: 10px;
+  border: solid 4px #fdf0d5;
+}
