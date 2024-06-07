@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Lab 15 - AJAX</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/lab.js" defer></script>
+  </head>
+  <body>
+    <main id="content">
+      <section>
+        <h1>Lab 15 - AJAX</h1>
+        <div id="page">
+          <h1>Lab 15 Ajax</h1>
+          <p>Allon Ramirez</p>
+        </div>
+        <div id="challenge">
+          <h1>Purpose of Lab:</h1>
+          <p>Use an API with site.</p>
+        </div>
+        <div id="problems">
+          <h1>Challenges:</h1>
+          <p>
+            I had trouble paying attention in zoom and had to ask around for
+            help.
+          </p>
+        </div>
+        <div id="results">
+          <h2>Results</h2>
+          <p id="fortune-result">get ready.</p>
+        </div>
+        <div id="output">
+          <button id="random-fortune">Chuck Norris Jokes!!</button>
+        </div>
+      </section>
+    </main>
+    <script>
+      $(document).ready(function () {
+        function getRandomFortune() {
+          $.get("https://api.chucknorris.io/jokes/random", function (data) {
+            $("#fortune-result").text(data.value);
+          });
+        }
+
+        $("#random-fortune").click(function () {
+          getRandomFortune();
+        });
+      });
+    </script>
+  </body>
+</html>
